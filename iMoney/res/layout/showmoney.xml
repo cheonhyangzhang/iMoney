@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/showmoneyLabel"
+    android:background="@drawable/label"
+    >
+    <Button
+        android:id="@+id/showmoneyBack"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backbutton"
+        android:textColor="#FFFAFA"
+        android:text="@string/back" />
+    <TextView
+        android:id="@+id/showmoneyDate"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="10pt"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFAFA"
+        android:layout_toRightOf="@id/showmoneyBack"
+        android:text="bulabulabula" />
+    <Button
+        android:id="@+id/detailAdd"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/addbutton"
+         /> 
+</RelativeLayout>    
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/switchBox"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/switchback"
+    android:id="@+id/switchBoxMiddle"    
+    android:orientation="horizontal" 
+    android:layout_gravity="center_horizontal">
+    
+    
+ <Button
+        android:id="@+id/showmoneyOrderByDay"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:textSize="5pt"       
+        android:layout_margin="1dp"
+        android:background="@drawable/switchmiddleleft"
+        android:layout_weight="1"
+        android:textColor="#FFFAFA"
+        android:text="@string/orderByDay" />
+ <Button
+        android:id="@+id/showmoneyOrderByWeek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="5pt"
+        android:background="@drawable/switchmiddle"
+        android:layout_margin="1dp"
+        android:textColor="#FFFAFA"
+        android:layout_weight="1"
+        android:text="@string/orderByWeek" />    
+ <Button
+        android:id="@+id/showmoneyOrderByMonth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="5pt"
+        android:background="@drawable/switchmiddleright"
+        android:layout_margin="1dp"
+        android:textColor="#FFFAFA"
+        android:layout_weight="1"
+    	android:text="@string/orderByMonth" />
+ </LinearLayout>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/detailGroupnameBox"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"    
+    android:visibility="gone"
+    android:background="@drawable/switchbackwhite"
+    > 
+    <TextView
+        android:id="@+id/detailGroupName"
+        android:layout_width="wrap_content"
+        android:textSize="6pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="bulabulabula" />
+    
+</LinearLayout>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:layout_margin="10dp"
+    android:background="@drawable/innerbackground"
+    >  
+<ListView
+    
+	android:id="@id/android:list"	
+	android:layout_margin="10dp"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:drawSelectorOnTop="false"
+	android:scrollbars="vertical"
+	android:cacheColorHint="#00000000"
+	/> 
+</LinearLayout>	      
+    
+
+</LinearLayout>

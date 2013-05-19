@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/ic_launcher"
+    	/>
+    <TextView 
+    	android:id="@+id/expenseNameD"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="bulabula"
+        android:textColor="#000000"
+    	android:textSize="8pt"
+    	android:layout_gravity="center_vertical"
+    	/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    	
+    	android:layout_alignParentRight="true"
+    	>
+   
+
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    	
+    	android:layout_weight="1"
+    	>
+     <TextView 
+        android:id="@+id/dayWD"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:textColor="#000000"
+    	android:layout_gravity="center_vertical"
+    	android:textSize="6pt"
+    	android:layout_marginLeft="20dp"
+    	/>	
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:layout_alignParentRight="true"
+    	>
+   
+    <TextView 
+        android:id="@+id/totalmoneyWD"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/expend"
+        android:textColor="#000000"
+    	android:layout_gravity="center_vertical"
+    	android:textSize="6pt"
+    	/>
+    <TextView 
+    	android:id="@+id/totalmoneyD"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="15dp"
+    	android:layout_gravity="center_vertical"
+    	android:text="2046"
+        android:textColor="#000000"
+    	android:textSize="6pt"
+    	/>
+    </LinearLayout>
+    </RelativeLayout>	
+    </LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:id="@+id/addtionBox"
+    	>
+    <TextView 
+    	android:id="@+id/additionD"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:text="@string/noAddition"
+        android:textColor="#000000"
+    	android:textSize="6pt"
+    	/>
+    </LinearLayout>
+         
+       </LinearLayout>
+         
+         
+</LinearLayout>
+</LinearLayout>

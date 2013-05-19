@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/ic_launcher"
+    	/>
+    <TextView 
+    	android:id="@+id/expenseName"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="bulabula"
+        android:textColor="#000000"
+    	android:textSize="8pt"
+    	android:layout_gravity="center_vertical"
+    	/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    	
+    	android:layout_alignParentRight="true"
+    	>
+
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    	
+    	android:layout_weight="1"
+    	>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:layout_alignParentRight="true"
+    	>
+    <TextView 
+        android:id="@+id/groupnumber"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="0"
+    	android:layout_marginRight="2dp"
+        android:textColor="#000000"
+    	android:textSize="6pt"
+    	android:layout_gravity="center_vertical"
+    	/>
+     <TextView 
+    	android:id="@+id/groupnumberW"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/piece"
+    	android:layout_marginRight="5dp"
+        android:textColor="#000000"
+    	android:layout_gravity="center_vertical"
+    	android:textSize="6pt"
+    	/>
+    <TextView 
+        android:id="@+id/totalmoneyW"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/allExpense"
+        android:textColor="#000000"
+    	android:layout_gravity="center_vertical"
+    	android:textSize="6pt"
+    	/>
+    <TextView 
+    	android:id="@+id/totalmoney"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginRight="15dp"
+    	android:layout_gravity="center_vertical"
+    	android:text="2046"
+        android:textColor="#000000"
+    	android:textSize="6pt"
+    	/>
+    </LinearLayout>
+    </RelativeLayout>	
+    </LinearLayout>
+         
+       </LinearLayout>
+         
+         
+</LinearLayout>
+</LinearLayout>
